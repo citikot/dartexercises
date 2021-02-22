@@ -8,10 +8,7 @@ main() {
   var userMove;
 
   while (true) {
-
-    
     // main cycle
-
     stdout.write('Enter your move (s/h/p/ q - for quit): ');
     final userInput = stdin.readLineSync();
 
